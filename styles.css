@@ -1,0 +1,47 @@
+body {
+    background-image: url('/images/background.jpeg'); /* Ensure the correct image path */
+    background-size: cover;
+    background-position: center; /* Center background */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Adjust text color for readability */
+    font-family: Arial, sans-serif;
+}
+
+/* Improve readability */
+header {
+    background: rgba(0, 0, 0, 0.7); /* Slight transparency */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Center "Registered Validators" */
+#validators {
+    background: rgba(0, 0, 0, 0.5); /* Transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Center headings */
+h1, h2, h3 {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
