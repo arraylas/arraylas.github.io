@@ -22,7 +22,11 @@ h1 {
 h2 {
     font-size: 28px;
     color: #fff;
-    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 section {
@@ -35,12 +39,7 @@ section {
     text-align: left;
 }
 
-p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-/* Validator List */
+/* Validator List Styling */
 #validator-list {
     display: flex;
     flex-direction: column;
@@ -49,10 +48,9 @@ p {
 }
 
 #validator-list h3 {
+    margin: 10px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
 }
 
 #validator-list a {
@@ -68,31 +66,30 @@ p {
     color: #ffcc00;
 }
 
-/* Validator Icons */
 .validator-icon {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
 }
 
-/* ARCHIVED Label */
+/* Archived Style */
 .archived {
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    color: black;
+    color: #888;
     font-weight: bold;
+    margin-left: 5px;
 }
 
 .red-dot {
+    display: inline-block;
     width: 10px;
     height: 10px;
     background-color: red;
     border-radius: 50%;
-    margin: 0 10px; /* Added spacing to the right */
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
-/* Footer */
+/* Footer Styling */
 footer {
     background: rgba(0, 0, 0, 0.9);
     padding: 20px;
@@ -101,15 +98,13 @@ footer {
 }
 
 .footer-text {
-    margin-bottom: 10px;
     font-size: 14px;
 }
 
-/* Social Icons */
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .social-icons a {
@@ -119,8 +114,8 @@ footer {
 }
 
 .social-icons a img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     transition: transform 0.3s;
 }
 
