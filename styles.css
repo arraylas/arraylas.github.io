@@ -1,47 +1,130 @@
 body {
-    background-image: url('/images/background.jpeg'); /* Ensure the correct image path */
+    font-family: 'Arial', sans-serif;
+    background: url('/images/background.jpeg') no-repeat center center fixed;
     background-size: cover;
-    background-position: center; /* Center background */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white; /* Adjust text color for readability */
-    font-family: Arial, sans-serif;
-}
-
-/* Improve readability */
-header {
-    background: rgba(0, 0, 0, 0.7); /* Slight transparency */
-    padding: 20px;
+    color: #ddd;
     text-align: center;
-    border-bottom: 2px solid white;
+    margin: 0;
+    padding: 0;
 }
 
-nav {
+header {
+    background: #1e1e1e;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    color: #00bfff;
+}
+
+h2 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(26, 26, 26, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Validator List */
+#validator-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#validator-list h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#validator-list a {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #00bfff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#validator-list a:hover {
+    color: #ffcc00;
+}
+
+/* Validator Icons */
+.validator-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* ARCHIVED Label */
+.archived {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.red-dot {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 10px; /* Added spacing to the right */
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Social Icons */
+.social-icons {
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-nav a {
-    color: white;
+.social-icons a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    font-weight: bold;
 }
 
-/* Center "Registered Validators" */
-#validators {
-    background: rgba(0, 0, 0, 0.5); /* Transparent overlay */
-    padding: 20px;
-    border-radius: 10px;
-    margin: auto;
-    width: 80%;
-    max-width: 800px;
-    text-align: center;
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
 }
 
-/* Center headings */
-h1, h2, h3 {
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
+.social-icons a img:hover {
+    transform: scale(1.2);
 }
 

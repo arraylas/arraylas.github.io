@@ -3,119 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shadow</title>
+    <title>Shadow Validator</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: url('/images/background.jpeg') no-repeat center center fixed;
-            background-size: cover;
-            color: #ddd;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #1e1e1e;
-            padding: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-        }
-        section {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background: rgba(26, 26, 26, 0.9);
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-            text-align: left;
-        }
-        h1 {
-            font-size: 36px;
-            color: #00bfff;
-        }
-        h2 {
-            font-size: 28px;
-            color: #fff;
-            text-align: center;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        #validator-list {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
-        }
-        #validator-list h3 {
-            margin: 10px 0;
-        }
-        #validator-list a {
-            display: flex;
-            align-items: center;
-            font-size: 20px;
-            color: #00bfff;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        #validator-list a:hover {
-            color: #ffcc00;
-        }
-        .validator-icon {
-            width: 24px;
-            height: 24px;
-            margin-right: 10px;
-        }
-        footer {
-            background: rgba(0, 0, 0, 0.9);
-            padding: 20px;
-            margin-top: 40px;
-            text-align: center;
-        }
-        .footer-text {
-            margin-bottom: 10px;
-            font-size: 14px;
-        }
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .social-icons a {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-        }
-        .social-icons a img {
-            width: 50px;
-            height: 50px;
-            transition: transform 0.3s;
-        }
-        .social-icons a img:hover {
-            transform: scale(1.2);
-        }
-    </style>
 </head>
 <body>
     <header>
         <h1>Shadow Validator Node</h1>
     </header>
+
     <h2>Your Trusted Validator</h2>
+
     <section>
         <p>Shadow Validator Node is a trusted validator utility provider. With a few simple steps, you can delegate funds to our trusted validators or explore our services, where you can find tools useful for node operators and developers.</p>
     </section>
+
     <section id="validators">
         <h2>Registered Validators</h2>
         <div id="validator-list">
-            <h3><a href="#"><img class="validator-icon" src="images/artela.png"> 1. Validator - Artela</a></h3>
-            <h3><a href="#"><img class="validator-icon" src="images/analog.png"> 2. Validator - Analog</a></h3>
-            <h3><a href="#"><img class="validator-icon" src="images/juneo.png"> 3. Validator - Juneo</a></h3>
-            <h3><a href="#"><img class="validator-icon" src="images/initia.png"> 4. Validator - Initia</a></h3>
-            <h3><a href="#"><img class="validator-icon" src="images/allora.png"> 5. Validator - Allora</a></h3>
-            <h3><a href="#"><img class="validator-icon" src="images/nillion.png"> 6. Validator - Nillion</a></h3>
+            <h3><a href="#"><img class="validator-icon" src="images/artela.png"> 1. Validator - Artela <span class="archived"><span class="red-dot"></span> ARCHIVED</span></a></h3>
+            <h3><a href="#"><img class="validator-icon" src="images/analog.png"> 2. Validator - Analog <span class="archived"><span class="red-dot"></span> ARCHIVED</span></a></h3>
+            <h3><a href="#"><img class="validator-icon" src="images/juneo.png"> 3. Validator - Juneo <span class="archived"><span class="red-dot"></span> ARCHIVED</span></a></h3>
+            <h3><a href="#"><img class="validator-icon" src="images/initia.png"> 4. Validator - Initia <span class="archived"><span class="red-dot"></span> ARCHIVED</span></a></h3>
+            <h3><a href="#"><img class="validator-icon" src="images/allora.png"> 5. Validator - Allora <span class="archived"><span class="red-dot"></span> ARCHIVED</span></a></h3>
+            <h3><a href="#"><img class="validator-icon" src="images/nillion.png"> 6. Validator - Nillion <span class="archived"><span class="red-dot"></span> ARCHIVED</span></a></h3>
         </div>
     </section>
+
     <footer>
         <p class="footer-text">&copy; 2025 Shadow. All rights reserved.</p>
         <div class="social-icons">
