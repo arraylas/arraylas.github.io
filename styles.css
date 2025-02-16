@@ -14,21 +14,6 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
-    font-size: 36px;
-    color: #00bfff;
-}
-
-h2 {
-    font-size: 28px;
-    color: #fff;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
 section {
     max-width: 800px;
     margin: 40px auto;
@@ -39,7 +24,22 @@ section {
     text-align: left;
 }
 
-/* Validator List Styling */
+h1 {
+    font-size: 36px;
+    color: #00bfff;
+}
+
+h2 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 #validator-list {
     display: flex;
     flex-direction: column;
@@ -49,8 +49,6 @@ section {
 
 #validator-list h3 {
     margin: 10px 0;
-    display: flex;
-    align-items: center;
 }
 
 #validator-list a {
@@ -72,24 +70,12 @@ section {
     margin-right: 10px;
 }
 
-/* Archived Style */
 .archived {
-    color: #888;
+    color: red;
     font-weight: bold;
     margin-left: 5px;
 }
 
-.red-dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 5px;
-}
-
-/* Footer Styling */
 footer {
     background: rgba(0, 0, 0, 0.9);
     padding: 20px;
@@ -99,12 +85,21 @@ footer {
 
 .footer-text {
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .social-icons a {
